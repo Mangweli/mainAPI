@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('products', [ProductController::class, 'índex']);
+Route::post('products/like/{id}', [ProductController::class, 'like']);
